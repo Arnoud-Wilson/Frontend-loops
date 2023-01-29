@@ -15,7 +15,8 @@ console.log(names);
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 for (let i = 0; i < names.length; i++) {
-    console.log(names [i] + "je");
+    names [i] = names [i] + "je";
+    console.log(names [i]);
 }
 
 // ==========================================
@@ -37,11 +38,12 @@ console.log(numbers);
 for (let i = 0; i < numbers.length; i++) {
 
     if (numbers [i] % 2 === 0) {
-        console.log(numbers [i] * 2);
+        numbers [i] = numbers [i] * 2;
+        console.log(numbers [i]);
     }
-    else {
-        console.log(numbers [i] * 3);
-    }
+    else
+        numbers [i] = numbers [i] *3;
+        console.log(numbers [i]);
 }
 
 // ==========================================

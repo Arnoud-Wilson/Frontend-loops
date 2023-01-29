@@ -48,9 +48,8 @@ for (let i = 0; i <16; i++) {
     if (i % 2 === 0) {
         console.log(i + " is even");
     }
-    else {
+    else
         console.log(i + " is oneven");
-    }
 }
 
 // ==========================================
@@ -74,10 +73,10 @@ for (i = 0; i < 10; i++) {
     if (i < 3) {
         console.log(i);
     }
-    if ((i > 2) && (i < 6)) {
+    if (i > 2 && i < 6) {
         console.log(">" + i);
     }
-    else if ((i > 5) && (i < 10)) {
+    else if (i > 5 && i < 10) {
         console.log(">>" + i);
     }
 }
